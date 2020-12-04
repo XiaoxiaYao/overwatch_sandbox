@@ -1,0 +1,16 @@
+[MASTER]
+disable=
+    C0114, # missing-module-docstring
+    C0115, # missing-class-docstring
+    C0116, # missing-function-docstring
+    E1101, # no-member
+    E0213, # no-self-argument
+    W0613, # unused-argument
+    R0201, # no-self-use
+    R0903, # too-few-public-methods
+
+init-hook='import sys; sys.path.append("./")'
+
+[FORMAT]
+# Good variable names which should always be accepted, separated by a comma
+good-names=pk
