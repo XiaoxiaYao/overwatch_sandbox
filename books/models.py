@@ -8,6 +8,7 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
+# cool
 
 class Quizzes(models.Model):
 
@@ -20,8 +21,8 @@ class Quizzes(models.Model):
     def __str__(self):
         return self.title
 
-#sdfsdfsssss
-# more commits I did changes
+#sdfsdfsssss I don't
+
 class Question(models.Model):
 
     SCALE = (
@@ -39,7 +40,7 @@ class Question(models.Model):
 
     quiz = models.ForeignKey(Quizzes, related_name='question', on_delete=models.DO_NOTHING)
     technique = models.IntegerField(
-        choices=TYPE, default=0, verbose_name=_("Type of Question")
+        choices=TYPE, default=0, verbose_name=_("Type of Question, you know")
     )
     title = models.CharField(max_length=255, verbose_name=_("Title"))
     difficulty = models.IntegerField(
