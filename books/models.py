@@ -20,7 +20,7 @@ class Quizzes(models.Model):
     def __str__(self):
         return self.title
 
-
+#sdfsdf
 class Question(models.Model):
 
     SCALE = (
