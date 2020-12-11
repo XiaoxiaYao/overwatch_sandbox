@@ -21,6 +21,7 @@ class Quizzes(models.Model):
         return self.title
 
 #sdfsdfsssss
+# more commits
 class Question(models.Model):
 
     SCALE = (
