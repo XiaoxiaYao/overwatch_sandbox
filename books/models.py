@@ -49,7 +49,7 @@ class Question(models.Model):
         default=False, verbose_name=_("Active Status")
     )
 
-# commentsdfsdfdsdfsdf Cool
+# commentsdfsdfdsdfsdf Cool New
 class Answer(models.Model):
 
     question = models.ForeignKey(
